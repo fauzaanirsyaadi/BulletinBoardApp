@@ -1,0 +1,6 @@
+INSERT INTO posts (title, author_name, content, password, views, created_at, modified_at, deleted) VALUES
+('Welcome to our Bulletin Board', 'Admin', 'This is our first post on the bulletin board. We hope you find it useful!', 'pass', 10, '2023-06-01 09:00:00', NULL, FALSE),
+('Important Announcement', 'John Doe', 'Please note that the office will be closed next Monday for maintenance.', 'pass', 25, '2023-06-02 14:30:00', NULL, FALSE),
+('New Feature Release', 'Jane Smith', 'We''re excited to announce the launch of our new messaging feature. Check it out!', 'pass', 50, '2023-06-03 11:15:00', NULL, FALSE),
+('Weekly Update', 'Team Lead', 'Here''s a summary of what our team accomplished this week and our goals for next week.', 'pass', 15, '2023-06-04 17:00:00', NULL, FALSE),
+('Tips for Productivity', 'Productivity Guru', 'Here are 5 tips to boost your productivity: 1. Prioritize tasks 2. Take regular breaks 3. Minimize distractions 4. Use productivity tools 5. Get enough sleep', 'pass', 75, '2023-06-05 10:45:00', NULL, FALSE);
